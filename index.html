@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Lucas Kesler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="saudacao">Bem-vindo ao meu currículo</h1>
+        <nav aria-label="Navegação principal">
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre" class="container">
+            <article>
+                <img src="media/Foto.jpeg" alt="Foto de perfil" class="foto">
+                <p>Olá! Meu nome é <strong>Lucas Kesler</strong>, sou estudante de Ciências da Computação com foco em desenvolvimento web e interfaces modernas.</p>
+            </article>
+        </section>
+
+        <section id="habilidades" class="container">
+            <h2>Minhas Habilidades</h2>
+            <ul>
+                <li>HTML5, CSS3 e JavaScript</li>
+                <li>Design Responsivo</li>
+                <li>Git e GitHub</li>
+                <li>Banco de Dados</li>
+            </ul>
+            <canvas id="grafico" width="300" height="150" aria-label="Gráfico ilustrativo de barras"></canvas>
+        </section>
+
+        <section id="contato" class="container">
+            <h2>Entre em contato</h2>
+            <form aria-label="Formulário de contato simples" onsubmit="return false;">
+                <label for="nome">Seu nome:</label>
+                <input type="text" id="nome" placeholder="Digite seu nome">
+                <button type="button" id="btnSaudacao">Enviar</button>
+            </form>
+
+            <!-- Link que abre diretamente o Gmail -->
+            <p>📧 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=lucaskesler90@gmail.com&su=Contato%20sobre%20curr%C3%ADculo&body=Ol%C3%A1%20Lucas,%0D%0A"
+                   target="_blank" rel="noopener">
+                Enviar E-mail pelo Gmail
+            </a></p>
+
+            <!-- Link do seu LinkedIn -->
+            <p>🔗 <a href="https://www.linkedin.com/in/lucas-kesler-69277a32a" target="_blank" rel="noopener">
+                Meu LinkedIn
+            </a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Desenvolvido por Lucas Kesler</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
